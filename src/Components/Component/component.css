@@ -1,0 +1,28 @@
+.component{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    
+}
+.component-container{
+    background-color: rgb(172, 182, 201);
+    margin: 7px;
+    padding: 3px;
+    border-color: rgb(75, 105, 114);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+}
+.second-component-container{
+background-color: rgb(238, 242, 247);
+height: 15%;
+}
+
+/* button calling */
+.callaing{
+    background-color: rgb(231, 186, 231);
+color: lightcoral;
+font-weight: bold;
+cursor: pointer;
+}
+
+
