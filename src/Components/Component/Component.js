@@ -8,11 +8,11 @@ const Component = () => {
 
 useEffect(()=>{
     //Fack Data  Load
-    fetch('./FackData.json')
+    fetch('./FakeData.json')
     .then(res => res.json())
     .then(data => setPersons(data))
 },[]);
-//Click Heandelar
+//Click Handler
 const payThisPerson =(person)=>{
     const newCart = [...cart, person];
     setCart(newCart);
@@ -23,7 +23,7 @@ const payThisPerson =(person)=>{
            <div className='component-container'>
            {
                 persons.map(person =><Person
-                id={person.id}
+                key={person.id}
                 person={person}
                 payThisPerson={payThisPerson}
                 ></Person>)
@@ -33,7 +33,7 @@ const payThisPerson =(person)=>{
 <Cart cart={cart}></Cart>
 
 <button className='calling' 
->Call hear</button>
+>pay</button>
            </div>
         </div>
     );
