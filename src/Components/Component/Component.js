@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Person from '../Person/Person';
@@ -32,8 +31,8 @@ const callThisPerson =(person)=>{
            </div>
            <div className="second-component-container">
 <Cart cart={cart}></Cart>
-{/* Click Heandelar */}
-<button className='callaing' 
+
+<button className='calling' 
 >Call hear</button>
            </div>
         </div>

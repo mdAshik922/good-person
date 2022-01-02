@@ -1,6 +1,5 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
+
 import './Person.css';
 
 const Person = (props) => {
@@ -20,7 +19,7 @@ const {name, picture, age, company, balance, address, phone}= props.person;
 <p>Address:{address}</p>
 <button onClick={() =>
  props.callThisPerson(props.person)} className='callThisPerson'
-><FontAwesomeIcon icon={faPhoneAlt} />
+>
     Call hear</button>
 
         </div>
