@@ -13,7 +13,7 @@ useEffect(()=>{
     .then(data => setPersons(data))
 },[]);
 //Click Heandelar
-const callThisPerson =(person)=>{
+const payThisPerson =(person)=>{
     const newCart = [...cart, person];
     setCart(newCart);
 }
@@ -25,7 +25,7 @@ const callThisPerson =(person)=>{
                 persons.map(person =><Person
                 id={person.id}
                 person={person}
-                callThisPerson={callThisPerson}
+                payThisPerson={payThisPerson}
                 ></Person>)
             }
            </div>
