@@ -18,9 +18,9 @@ const {name, picture, age, company, balance, address, phone}= props.person;
 <h4>Phone Number:{phone}</h4>
 <p>Address:{address}</p>
 <button onClick={() =>
- props.payThisPerson(props.person)} className='callThisPerson'
+ props.payThisPerson(props.person)} className='payThisPerson'
 >
-    Call hear</button>
+    Pay</button>
 
         </div>
     );
