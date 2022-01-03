@@ -5,7 +5,7 @@
       "picture": "https://i.ibb.co/vQckk7F/Screenshot-9.png",
       "age": 33,
       "company": "HELIXO",
-      "balance": "1,616.79",
+      "balance": "1,616",
       "email": "talleybarton@helixo.com",
       "phone": "+1 (931) 431-2650",
       "address": "768 Pitkin Avenue, Hanover, South Dakota, 7612"
@@ -16,7 +16,7 @@
       "picture": "https://i.ibb.co/z8cKvJ9/Screenshot-10.png",
       "age": 28,
       "company": "VELOS",
-      "balance": "2,359.57",
+      "balance": "2,359",
       "email": "letitiahanson@velos.com",
       "phone": "+1 (886) 460-3044",
       "address": "933 Taaffe Place, Condon, Indiana, 4739"
@@ -27,7 +27,7 @@
       "picture": "https://i.ibb.co/qYzv5SL/Screenshot-11.png",
       "age": 29,
       "company": "INSURON",
-      "balance": "2,441.67",
+      "balance": "2,441",
       "email": "feliciaaguirre@insuron.com",
       "phone": "+1 (963) 408-3518",
       "address": "406 Lexington Avenue, Newkirk, Missouri, 2086"
@@ -38,7 +38,7 @@
       "picture": "https://i.ibb.co/nwk3tcM/Screenshot-12.png",
       "age": 22,
       "company": "ENERVATE",
-      "balance": "1,085.56",
+      "balance": "1,085",
       "email": "corrinecarney@enervate.com",
       "phone": "+1 (924) 525-3040",
       "address": "741 Horace Court, Cecilia, Rhode Island, 2318"
@@ -49,18 +49,18 @@
       "picture": "https://i.ibb.co/qnVFVYg/Screenshot-13.png",
       "age": 33,
       "company": "ACRODANCE",
-      "balance": "3,851.00",
+      "balance": "3,851",
       "email": "mckeecallahan@acrodance.com",
       "phone": "+1 (822) 444-2010",
       "address": "657 Neptune Court, Marion, Washington, 4275"
     },
     {
       "_id": "614fc047bb9555822691a89a",
-      "name": " George W. ... Bush",
+      "name": " George Bush",
       "picture": "https://i.ibb.co/7zj1PKx/Screenshot-14.png",
       "age": 40,
       "company": "BUNGA",
-      "balance": "3,340.28",
+      "balance": "3,340",
       "email": "leliablanchard@bunga.com",
       "phone": "+1 (849) 433-2856",
       "address": "497 Vandam Street, Konterra, Mississippi, 5440"
