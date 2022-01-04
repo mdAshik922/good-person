@@ -16,10 +16,9 @@ const {name, picture, age, company, balance, address, phone}= props.person;
 <h5>Salary:${balance}</h5>
 <h4>Phone Number:{phone}</h4>
 <p>Address:{address}</p>
-<button style={{marginBottom: "5%"}} onClick={() =>
- props.payThisPerson(props.person)} className='payThisPerson'
->
-    Pay</button>
+<button className='payThisPerson' style={{marginBottom: "5%"}} onClick={() =>
+ props.payThisPerson(props.person)} 
+> Pay</button>
 
         </div>
     );

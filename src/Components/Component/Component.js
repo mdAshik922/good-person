@@ -30,7 +30,7 @@ const payThisPerson =(person)=>{
             }
            </div>
            <div className="second-component-container">
-<Cart cart={cart}></Cart>
+<Cart key={cart.id} cart={cart}></Cart>
 
 <button className='calling' 
 >pay</button>
