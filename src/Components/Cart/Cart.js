@@ -6,7 +6,8 @@ const Cart = (props) => {
     let total = 0;
     for (const person of cart) {
        
-        total = total + parseFloat(person.price) ;
+        total = total + person.price ;
+        return total;
        
     }
         
@@ -14,7 +15,7 @@ const Cart = (props) => {
     return (
         <div>
     <h3>Add Good Person:{props.cart.length}</h3>
-<h3>salary:${total.toFixed(2)} </h3>
+<h3>salary:${total} </h3>
 
         </div>
     );

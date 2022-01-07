@@ -8,7 +8,7 @@ const Component = () => {
 
 useEffect(()=>{
     //FakeData  Load
-    fetch('./FakeData.json')
+    fetch('/FakeData.json')
     .then(res => res.json())
     .then(data => setPersons(data))
 },[]);
