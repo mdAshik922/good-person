@@ -7,8 +7,7 @@ const Cart = (props) => {
     for (const person of cart) {
        
         total = total + person.balance ;
-
-       
+ 
     }
         
 
