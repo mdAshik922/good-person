@@ -32,8 +32,7 @@ const payThisPerson =(person)=>{
            <div className="second-component-container">
 <Cart key={cart.id} cart={cart}></Cart>
 
-<button className='paying' 
->pay</button>
+<button>pay</button>
            </div>
         </div>
     );
