@@ -6,7 +6,7 @@ const Cart = (props) => {
     let total = 0;
     for (const person of cart) {
        
-        total = total + parseInt(person.balance) ;
+        total = total + person.balance ;
 
        
     }
