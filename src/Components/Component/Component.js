@@ -7,7 +7,7 @@ const Component = () => {
     const [cart, setCart]=useState([]);
 
 useEffect(()=>{
-    //FakeData  Load
+    
     fetch('/FakeData.json')
     .then(res => res.json())
     .then(data => setPersons(data))
