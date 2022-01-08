@@ -3,7 +3,7 @@ import './Person.css';
 
 const Person = (props) => {
    
-const {name, picture, age, company, balance, address, phone} = props.person;
+const {name, picture, age, company, balance, address, phone} = ;
 
     return (
         //dynamic 
