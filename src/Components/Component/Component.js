@@ -2,10 +2,11 @@ import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Person from '../Person/Person';
 import './component.css';
+
 const Component = () => {
-    const [persons, setPersons]=useState([]);
-    const [cart, setCart]=useState([]);
-    
+    const [persons, setPersons] = useState([]);
+    const [cart, setCart] = useState([]);
+
 //Data  Load
 useEffect(()=>{
     fetch('/FakeData.json')
@@ -14,7 +15,7 @@ useEffect(()=>{
 },[]);
 
 //Click Handler
-const payThisPerson =(person)=>{
+const payThisPerson = (person)=>{
     const newCart = [...cart, person];
     setCart(newCart);
 }
