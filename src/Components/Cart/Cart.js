@@ -1,12 +1,12 @@
 import React from 'react';
 
 const Cart = (props) => {
-    const {cart} = props;
-    
+    const cart = props.cart;
+    console.log(cart)
     let total = 0;
     for (const person of cart) {
        
-        total = total + person.balance ;
+        total = total + parseInt(person.balance) ;
  
     }
         
