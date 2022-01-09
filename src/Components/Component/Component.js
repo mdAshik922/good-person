@@ -17,7 +17,7 @@ useEffect(()=>{
 //Click Handler
 const payThisPerson = (person)=>{
     const newCart = [...cart, person];
-    
+    setCart(newCart);
 }
 
     return (
