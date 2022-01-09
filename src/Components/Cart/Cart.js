@@ -2,7 +2,7 @@ import React from 'react';
 
 const Cart = (props) => {
     const cart = props.cart;
-    console.log(cart)
+   
     let total = 0;
     for (const person of cart) {
        
