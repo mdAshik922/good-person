@@ -6,7 +6,6 @@ const Person = (props) => {
 const {name, picture, age, company, balance, address, phone} = props.person;
 
     return (
-       
         <div>
             
             <img src={picture} alt='good-person'/>
