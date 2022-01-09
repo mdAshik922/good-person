@@ -11,7 +11,7 @@ const {name, picture, age, company, balance, address, phone} = props.person;
             
             <img src={picture} alt='good-person'/>
             <h2>{name}</h2>
-<h3>Company:{company}</h3>
+
 <p>age:{age}</p>
 <h5>Salary:${balance}</h5>
 <h4>Phone Number:{phone}</h4>
