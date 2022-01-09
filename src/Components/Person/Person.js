@@ -7,7 +7,6 @@ const {name, picture, age, company, balance, address, phone} = props.person;
 
     return (
         <div>
-            
             <img src={picture} alt='good-person'/>
             <h2>{name}</h2>
 <h3>Company:{company}</h3>
