@@ -5,9 +5,9 @@ import './component.css';
 const Component = () => {
     const [persons, setPersons]=useState([]);
     const [cart, setCart]=useState([]);
-
+    
+//Data  Load
 useEffect(()=>{
-    //FakeData  Load
     fetch('/FakeData.json')
     .then(res => res.json())
     .then(data => setPersons(data))
