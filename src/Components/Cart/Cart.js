@@ -10,7 +10,6 @@ const Cart = (props) => {
  
     }
         
-
     return (
         <div>
     <h3>Add Good Person:{props.cart.length}</h3>
