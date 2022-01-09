@@ -7,7 +7,9 @@
     background-color: rgb(172, 182, 201);
     margin: 7px;
     padding: 3px;
-    border-color: rgb(75, 105, 114);
+    /* border-color: rgb(67, 184, 219); */
+    border-left: 3px solid red;
+    border-Right: 3px solid red;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
    
